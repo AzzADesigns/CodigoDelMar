@@ -21,7 +21,7 @@ export const NavMovile = () => {
 
     return (
         <motion.div
-            className=" w-20 fixed flex flex-col justify-end items-center backdrop-blur-md rounded-full right-2.5 top-5 overflow-hidden z-50"
+            className=" w-20 fixed flex flex-col justify-end shadow-2xl shadow-gray-950 items-center backdrop-blur-md rounded-full right-2.5 top-5 overflow-hidden z-50"
             animate={{
                 height: isActive ? 380 : 80
             }}
@@ -36,7 +36,7 @@ export const NavMovile = () => {
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: 10 }}
                             transition={{ duration: 0.3 }}
-                            className="text-white cursor-pointer pt-5 hover:scale-110 transition-transform"
+                            className="text-gray-950 cursor-pointer pt-5 hover:scale-110 transition-transform"
                         >
                             {item.icon}
                         </motion.li>
@@ -45,8 +45,7 @@ export const NavMovile = () => {
             </ul>
 
             <button onClick={handleClick}>
-                <img src="/logo.png" className='w-32' alt="logo" />
-                
+                <img src="/logo.png" className='w-32 cursor-pointer hover:scale-150 transition-all ml-[2px]' alt="logo" />
             </button>
         </motion.div>
     )

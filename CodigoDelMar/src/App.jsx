@@ -8,7 +8,7 @@ import { useIsXL } from "./hooks/useIsXL"
 function App() {
     const isXL = useIsXL()
     return(
-        <div className="max-w-full mb-[1000px] bg-indigo-50 h-full">
+        <div className="w-full max-w-[2100px] pb-96 bg-indigo-50 h-full">
             <header 
                 className=" flex flex-col justify-center items-center"
             >   
@@ -19,7 +19,7 @@ function App() {
                     <Header/>
                 </div>
             </header>
-            <main className="w-full flex flex-col justify-center items-center h-screen">
+            <main className="w-full flex flex-col justify-center items-center">
                 <SectionMain/>
             </main>
         </div>

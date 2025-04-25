@@ -22,11 +22,11 @@ export const Services = () => {
     ];
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-6 mt-[900px] lg:mt-[1200px] xl:mt-0"
+        <div className="min-h-screen flex flex-col items-center justify-center p-6 mt-20 xl:mt-0"
              style={{ backgroundImage: `url('/mi-fondo-card.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             
             <motion.h2 
-                className="text-3xl font-bold mb-16 lg:mb-32"
+                className="text-5xl font-bold mb-16 lg:mb-32"
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut" }}
@@ -34,7 +34,7 @@ export const Services = () => {
                 Nuestros Servicios
             </motion.h2>
             
-            <div className="grid grid-cols-1 sm:grid-cols-1 xl:grid-cols-3 gap-12 2xl:gap-60 w-full max-w-7xl justify-items-center group relative">
+            <div className="grid grid-cols-1 sm:grid-cols-1 xl:grid-cols-3 2xl:w-[87%]  justify-items-center group relative">
                 {services.map((service, index) => (
                     <motion.div 
                         key={index}
