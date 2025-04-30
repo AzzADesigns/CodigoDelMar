@@ -8,7 +8,7 @@ export const Navbar = () => {
 
     return (
         <motion.div
-            className='w-[80%] bg-indigo-50/10 h-14 shadow-2xl xl:h-24 backdrop-blur-2xl mt-5 p-5 flex justify-between items-center rounded-full fixed top-5 z-50'
+            className='w-[80%] 2xl:w-[60.5%] bg-indigo-50/10 h-14 shadow-2xl xl:h-24 backdrop-blur-2xl mt-5 p-5 flex justify-between items-center rounded-full fixed top-5 z-50'
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}

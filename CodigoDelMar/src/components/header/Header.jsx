@@ -5,7 +5,7 @@ import { ContactButton } from '../shared/ContactButton'
 export const Header = () => {
     return (
         <header
-            className='max-w-full h-screen bg-cover bg-center flex flex-col justify-center pb-52 xl:pb-0 items-center'
+            className='max-w-full h-screen bg-cover bg-center flex flex-col justify-center pb-52 xl:pb-0 items-center bg-fixed'
             style={{ backgroundImage: "url(/banner.png)" }}
         >
             <motion.div
