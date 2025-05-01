@@ -9,30 +9,30 @@ export default function Contacto() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        
+
         const email = formRef.current.email.value;
         const mensaje = formRef.current.mensaje.value;
         const nuevosErrores = {};
-        
+
         if (!email) {
             nuevosErrores.email = "Este campo es obligatorio.";
         } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
             nuevosErrores.email = "Correo electrónico inválido.";
         }
-      
+
         if (!mensaje) {
             nuevosErrores.mensaje = "Este campo es obligatorio.";
         } else if (mensaje.length < 10) {
             nuevosErrores.mensaje = "El mensaje debe tener al menos 10 caracteres.";
         }
-      
+
         setErrores(nuevosErrores);
-      
+
         if (Object.keys(nuevosErrores).length === 0) {
             emailjs.sendForm('service_vwg5ib8', 'template_8g9zaub', formRef.current, 'G7hYLp6NxNtNRfIqR')
                 .then(() => {
                     setEnviado(true);
-                    formRef.current.reset();    
+                    formRef.current.reset();
                     setTimeout(() => setEnviado(false), 3000);
                 })
                 .catch((error) => {
@@ -47,14 +47,18 @@ export default function Contacto() {
             style={{ backgroundImage: `url('/contacto.jpg')` }}
         >
             <motion.form
-              ref={formRef}
-              onSubmit={handleSubmit}
-              className="w-full max-w-2xl bg-white/20 h-[500px] backdrop-blur-[100px] shadow-2xl shadow-gray-500 rounded-xl p-6 flex flex-col justify-center gap-6"
+                ref={formRef}
+                onSubmit={handleSubmit}
+                className="w-full max-w-2xl bg-white/20 h-[500px] backdrop-blur-[100px] shadow-2xl shadow-gray-500 rounded-xl p-6 flex flex-col justify-center gap-6"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                viewport={{ once: true }}
             >
                 <h2 className="text-2xl xl:text-3xl font-semibold text-gray-950 text-center">
                     Contactanos
                 </h2>
-        
+
                 <div>
                     <label className="block text-sm xl:text-lg font-medium text-gray-950">Correo electrónico</label>
                     <input
@@ -65,7 +69,7 @@ export default function Contacto() {
                     />
                     {errores.email && <p className="text-red-600 text-sm mt-1">{errores.email}</p>}
                 </div>
-        
+
                 <div>
                     <label className="block text-sm xl:text-lg font-medium text-gray-950">Mensaje</label>
                     <textarea
@@ -76,14 +80,14 @@ export default function Contacto() {
                     ></textarea>
                     {errores.mensaje && <p className="text-red-600 text-sm mt-1">{errores.mensaje}</p>}
                 </div>
-        
+
                 <button
                     type="submit"
                     className="w-full bg-indigo-50 hover:bg-gray-950 hover:text-indigo-50 cursor-pointer text-gray-950 font-semibold py-2 rounded-md transition duration-200"
                 >
                     Enviar
                 </button>
-        
+
                 {enviado && (
                     <motion.p
                         initial={{ opacity: 0 }}

@@ -13,20 +13,26 @@ export const Projects = () => {
         '/proyecto2.png',
         '/proyecto3.png',
         '/proyecto4.png'
-    ]
+    ];
 
     return (
-        <section className="min-h-screen  flex flex-col  justify-center items-center mt-52 px-4">
-            <div className="w-[90%] lg:w-[90%] max-w-6xl relative overflow-hidden  shadow-2xl rounded-3xl">
+        <motion.section
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="min-h-screen flex flex-col justify-center items-center mt-52 px-4"
+        >
+            <div className="w-[90%] lg:w-[90%] max-w-6xl relative overflow-hidden shadow-2xl rounded-3xl">
                 <div className="w-full h-[800px] md:h-[600px] flex justify-center items-center sm:h-[70vh] relative">
-                <div className="flex flex-col justify-center items-center w-[70%] gap-6 text-gray-950 text-center">
-                    <h3 className="text-2xl md:text-4xl xl:text-5xl font-extrabold">
-                        MozoPlus
-                    </h3>
-                    <p className="text-base md:text-xl xl:text-3xl">
-                        Sistema integral de gestión para restaurantes que optimiza el servicio y mejora la experiencia del cliente.
-                    </p>
-                </div>
+                    <div className="flex flex-col justify-center items-center w-[70%] gap-6 text-gray-950 text-center">
+                        <h3 className="text-2xl md:text-4xl xl:text-5xl font-extrabold">
+                            MozoPlus
+                        </h3>
+                        <p className="text-base md:text-xl xl:text-3xl">
+                            Sistema integral de gestión para restaurantes que optimiza el servicio y mejora la experiencia del cliente.
+                        </p>
+                    </div>
 
                     <AnimatePresence mode="wait">
                         {selectedIndex !== null && (
@@ -46,7 +52,7 @@ export const Projects = () => {
                 </div>
 
                 <motion.div 
-                    className="absolute bottom-2 right-0 z-20 w-full max-w-[450px]  backdrop-blur-2xl xl:gap-4 place-items-center lg:mr-5 lg:pl-3 shadow-gray-950/50  p-2 shadow-lg rounded-lg hover:scale-104 h-28 hover:h-32 transition-all opacity-50 hover:opacity-100 flex justify-center gap-10"
+                    className="absolute bottom-2 right-0 z-20 w-full max-w-[450px] backdrop-blur-2xl xl:gap-4 place-items-center lg:mr-5 lg:pl-3 shadow-gray-950/50 p-2 shadow-lg rounded-lg hover:scale-104 h-28 hover:h-32 transition-all opacity-50 hover:opacity-100 flex justify-center gap-10"
                     drag 
                     dragConstraints={{ left: -300, right: 300, top: -150, bottom: 150 }} 
                     dragElastic={0.9} 
@@ -77,6 +83,6 @@ export const Projects = () => {
                     ))}
                 </motion.div>
             </div>
-        </section>
-    )
-}
+        </motion.section>
+    );
+};
