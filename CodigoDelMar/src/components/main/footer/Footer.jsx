@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Descripción */}
         <div>
           <h2 className="text-lg font-semibold">Código Del Mar</h2>
-          <p className="mt-2 w-52 text-md">
+          <p className="mt-2 w-60 md:w-32 xl:w-52 text-md">
             Transformando el futuro digital, una línea de código a la vez.
           </p>
         </div>
@@ -33,7 +33,7 @@ export default function Footer() {
         {/* Redes sociales */}
         <div>
           <h2 className="text-lg font-semibold">Síguenos</h2>
-          <div className="mt-2 flex justify-center md:justify-start gap-16 text-4xl">
+          <div className="mt-2 flex justify-center md:justify-start gap-5 xl:gap-16 text-4xl">
             <a href="#" aria-label="LinkedIn" className="hover:text-gray-300">
               <FaLinkedin />
             </a>

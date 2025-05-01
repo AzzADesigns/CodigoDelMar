@@ -50,7 +50,7 @@ export const Services = () => {
                                         hover:border-indigo-300/50 hover:shadow-2xl hover:shadow-black/30 overflow-hidden 
                                         hover:-translate-y-2 hover:scale-105 transition-all duration-300 flex flex-col justify-between items-center relative p-6">
                             
-                            <div className="text-center">
+                            <div className="text-center mt-5">
                                 <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">
                                     {service.Title}
                                 </h3>
@@ -59,7 +59,7 @@ export const Services = () => {
                                 </p>
                             </div>
 
-                            <div className="relative w-full h-48 mt-6 overflow-hidden rounded-lg">
+                            <div className="relative w-full h-48 mt-6 mb-5 overflow-hidden rounded-lg">
                                 <img 
                                     src={service.Image} 
                                     alt={service.Title} 

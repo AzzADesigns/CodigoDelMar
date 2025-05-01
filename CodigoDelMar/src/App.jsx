@@ -9,12 +9,12 @@ function App() {
     const isXL = useIsXL()
     return(
         <div className="w-full max-w-[2100px] bg-indigo-50 h-full">
+            <div className="w-full justify-center flex">
+                {isXL ? <Navbar /> : <NavMovile/>}
+            </div>
             <header 
                 className=" flex flex-col justify-center items-center"
             >   
-                <div className="w-full justify-center flex">
-                    {isXL ? <Navbar /> : <NavMovile/>}
-                </div>
                 <div className="w-full mb-5">
                     <Header/>
                 </div>

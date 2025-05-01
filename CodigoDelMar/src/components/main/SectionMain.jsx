@@ -8,15 +8,24 @@ import Footer from './footer/Footer'
 
 
 export const SectionMain = () => {
-  return (
-    <section className='w-full '>
-        <div>
-            <Services/>
-            <AboutUs/>
-            <Projects/>
-            <Contact/>
-            <Footer/>
-        </div>
-    </section>
-  )
-}
+    return (
+        <section className='w-full'>
+            <div>
+                <div id="servicios">
+                    <Services />
+                </div>
+                <div id="nosotros">
+                    <AboutUs />
+                </div>
+                <div id="proyectos">
+                    <Projects />
+                </div>
+                <div id="contacto">
+                    <Contact />
+                </div>
+                <Footer />
+            </div>
+        </section>
+    );
+};
+  
