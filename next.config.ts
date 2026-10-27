@@ -1,9 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "codigodelmar.lat",
+        pathname: "/static/img/**",
+      },
+    ],
+  },
   turbopack: {
     rules: {
       "*.css": {
@@ -15,3 +23,6 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+
+
