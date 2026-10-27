@@ -1,0 +1,221 @@
+﻿Diagnose log at 2026-10-27T20:42:57Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26300)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\Admin
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-NF124IF
+GIT_TRACE2_PARENT_SID=0b4f5f55-c487-4fcf-bdc4-a1f86e36e03d
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+ZSH_TMUX_AUTOSTART=false
+PROCESSOR_LEVEL=25
+OneDrive=C:\Users\Admin\OneDrive
+CODEX_THREAD_ID=01a17ea8-2a2b-7552-86db-75f85b4c893e
+LOG_FORMAT=json
+TMPDIR=C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC\Temp
+USERNAME=Admin
+CODEX_SHELL=1
+LC_CTYPE=C.UTF-8
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-NF124IF
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Admin\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Admin\.codex\tmp\arg0-windows\codex-arg0Dl3W48;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Users\Admin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Admin\AppData\Local\Programs\Python\Python312\;C:\Users\Admin\AppData\Local\Programs\Python\Launcher\;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\Users\Admin\AppData\Local\Programs\Antigravity\bin;C:\Users\Admin\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\Admin\.local\bin;C:\Users\Admin\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\c602dfdab3808440;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\2993767bd1dfb009
+BROWSER_USE_ACCESS_VERIFYING_IDENTITY=MCowBQYDK2VwAyEAGdDBCuGo3GTfZe8utPazOKzVvUZ1XZQ/XjKNwUdyZgk=
+SystemDrive=C:
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC\Temp
+LOCALAPPDATA=C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC
+MSYSTEM=MINGW64
+TERM=dumb
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+PSModulePath=C:\Users\Admin\OneDrive\Documents\PowerShell\Modules;C:\Program Files\PowerShell\Modules;c:\users\admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell\Modules;C:\Users\Admin\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+CODEX_SESSION_ID=01a17ea8-2a2b-7552-86db-75f85b4c893e
+USERDOMAIN=DESKTOP-NF124IF
+CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS=1
+NO_COLOR=1
+CODEX_APP_RUNTIME_CLI_PATH=C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\2993767bd1dfb009\codex.exe
+CODEX_TOOL_CALL_ID=exec-3519555f-4f87-474a-922c-590a500daad2
+NUMBER_OF_PROCESSORS=12
+CODEX_TECTONIC_PATH=C:\Program Files\WindowsApps\OpenAI.Codex_26.1021.3705.0_x64__2p2nqsd0c76g0\app\resources\tectonic\tectonic.exe
+CODEX_APP_TOOLS_PIPE_PATH=\\.\pipe\codex-app-tools-50d340e7-83ad-449e-a683-f681b6ad205c
+ProgramFiles(x86)=C:\Program Files (x86)
+PUBLIC=C:\Users\Public
+ZSH_TMUX_AUTOSTARTED=true
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CODEX_PERMISSION_PROFILE=:workspace
+TMP=C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC\Temp
+RlsSvcPort=22112
+CODEX_VERSION=0.164.0-alpha.11.1
+PAGER=cat
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramW6432=C:\Program Files
+GIT_PAGER=cat
+ProgramFiles=C:\Program Files (x86)
+APPDATA=C:\Users\Admin\AppData\Roaming
+GH_PAGER=cat
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+SHELL=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+HOME=C:\Users\Admin
+CODEX_INTERNAL_ORIGINATOR_OVERRIDE=Codex Desktop
+CommonProgramW6432=C:\Program Files\Common Files
+DISABLE_AUTO_UPDATE=true
+LOGONSERVER=\\DESKTOP-NF124IF
+USERPROFILE=C:\Users\Admin
+PROCESSOR_REVISION=5000
+CODEX_CI=1
+LC_ALL=C.UTF-8
+CODEX_WINDOWS_SANDBOX_PACKAGE_FAMILY=OpenAI.Codex_2p2nqsd0c76g0
+SystemRoot=C:\WINDOWS
+CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY=MCowBQYDK2VwAyEAGdDBCuGo3GTfZe8utPazOKzVvUZ1XZQ/XjKNwUdyZgk=
+COLORTERM=
+RUST_LOG=warn
+CODEX_MCP_NODE_PATH=C:\Users\Admin\AppData\Local\OpenAI\Codex\runtimes\cua_node\1fb7137c46617d50\bin\node.exe
+CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE=1
+HOMEDRIVE=C:
+LANG=C.UTF-8
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+ACSetupSvcPort=23210
+windir=C:\WINDOWS
+OneDriveConsumer=C:\Users\Admin\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC\Temp\3651462b9c11ee11fbeb3393'... OK
+Reading from temporary file 'C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC\Temp\3651462b9c11ee11fbeb3393'... OK
+Deleting temporary file 'C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC\Temp\3651462b9c11ee11fbeb3393'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Admin
+UserDataDirectoryPath: C:\Users\Admin\.gcm
+GetCurrentDirectory(): C:\Users\Admin\OneDrive\Desktop\desktop\AzzADesigns\codigo-del-mar
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: False
+Exception:
+System.Net.HttpListenerException (0x80004005): Acceso denegado
+   en System.Net.HttpListener.AddAllPrefixes()
+   en System.Net.HttpListener.Start()
+   en GitCredentialManager.Diagnostics.NetworkingDiagnostic.<RunInternalAsync>d__4.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en GitCredentialManager.Diagnostics.Diagnostic.<RunAsync>d__6.MoveNext()
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:61572/...
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.52.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/Admin/OneDrive/Desktop/desktop/AzzADesigns/codigo-del-mar/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/Admin/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/Admin/.gitconfig	filter.lfs.required=true
+file:C:/Users/Admin/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/Admin/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/Admin/.gitconfig	user.name=Azariel Moreno
+file:C:/Users/Admin/.gitconfig	user.email=azariiielll@gmail.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/AzzADesigns/CodigoDelMar.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.master.remote=origin
+file:.git/config	branch.master.merge=refs/heads/codigo-del-mar-redesign
+file:.git/config	branch.codigo-del-mar-pr.remote=origin
+file:.git/config	branch.codigo-del-mar-pr.merge=refs/heads/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: False
+Exception:
+GitCredentialManager.Interop.InteropException: Failed to enumerate credentials. ---> System.ComponentModel.Win32Exception: Acceso denegado
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en GitCredentialManager.Interop.Windows.Native.Win32Error.ThrowIfError(Int32 error, String defaultErrorMessage, ITrace2 trace2)
+   en GitCredentialManager.Interop.Windows.WindowsCredentialManager.<Enumerate>d__8.MoveNext()
+   en System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   en GitCredentialManager.Interop.Windows.WindowsCredentialManager.Remove(String service, String account)
+   en GitCredentialManager.CredentialStore.Remove(String service, String account)
+   en GitCredentialManager.Diagnostics.CredentialStoreDiagnostic.RunInternalAsync(StringBuilder log, IList`1 additionalFiles)
+   en GitCredentialManager.Diagnostics.Diagnostic.<RunAsync>d__6.MoveNext()
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential...Deleting test credential...
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Admin\AppData\Local\Packages\sandbox.{2e2b1afa-b5b6-4ecb-aad8-7ebd31422384}\AC\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
